@@ -22,8 +22,7 @@ p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: black;
-    
+    color: black;    
 }
 
 h1{
@@ -83,7 +82,7 @@ h6{
 }
 
 .top-buffer-page5{
-    padding-top: 300px;
+    padding-top: 300px;    
 }
 
 .fifth-page-section a{
@@ -93,15 +92,27 @@ h6{
     padding: 15px 20px;
 }
 
-.footer-page-section{
+.footer-image-page-section{
     background-image: url(images/background-footer.png.png);
-    min-height: 1200px;
-    /* background-color: #146130;     */
-    /* background-repeat: no-repeat; */
+    min-height: 900px;
+    max-height: 900px;
     background-size: cover;
+    margin-top: -375px;   
 }
 
-/* .bg-img-footer{    
-    background-size: cover;
-} */
+.footire-page-section{
+    background-color: #146130;
+    min-height: 600px;
+    
+}
 
+.footire-page-section a{
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+}
+
+h5{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
