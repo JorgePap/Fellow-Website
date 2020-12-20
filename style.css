@@ -1,0 +1,107 @@
+.first-page-section {
+    min-height: 800px;
+    background-color: white;
+}
+
+nav li a{
+    color: #1C1C1C;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav li a:hover{
+    color: #1C1C1C;
+}
+
+.top-buffer-page1{
+    margin-top: 215px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    
+}
+
+h1{
+    font-family: 'Alegreya Sans';
+    font-weight: 900;
+    font-size: 64px;
+    color: black;
+}
+
+h2{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    color: #1c1c1c;
+}
+
+h6{
+    font-weight: 400;
+}
+
+.second-page-section {
+    min-height: 676px;
+    background-color: #146130;
+}
+
+.second-page-section p{
+    color: white;
+    font-weight: 400;
+}
+
+.second-page-section h1,.second-page-section h6,.second-page-section h2{
+    color: white;
+}
+
+.textbox{
+    margin-top: 220px;
+    
+}
+
+.photobox{
+    margin-top: 220px;
+}
+
+.third-page-section {
+    min-height: 676px;
+    background-color: white;
+}
+
+.fourth-page-section {
+    min-height: 676px;
+    background-color: #F2E9D8;
+}
+
+.fifth-page-section{
+    min-height: 800px;
+    background-color: white;
+}
+
+.top-buffer-page5{
+    padding-top: 300px;
+}
+
+.fifth-page-section a{
+    border-radius: 16px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    padding: 15px 20px;
+}
+
+.footer-page-section{
+    background-image: url(images/background-footer.png.png);
+    min-height: 1200px;
+    /* background-color: #146130;     */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+/* .bg-img-footer{    
+    background-size: cover;
+} */
+
