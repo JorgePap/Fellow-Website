@@ -100,15 +100,17 @@ h6{
     margin-top: -375px;   
 }
 
-.footire-page-section{
+.footer-page-section{
     background-color: #146130;
-    min-height: 600px;
+    min-height: 400px;
     
 }
 
-.footire-page-section a{
+.footer-page-section a{
     color: white;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 h5{
@@ -116,3 +118,8 @@ h5{
     font-weight: 800;
     font-size: 24px;
 }
+
+.footer-page-section a:hover{
+    color: white;
+}
+
