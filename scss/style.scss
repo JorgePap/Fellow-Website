@@ -2,138 +2,149 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 
+
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 800px,
+  lg: 1000px,
+  xl: 1490px
+);
+
+$container-max-widths: (
+  xl: 1350px
+);
+
 @import "../node_modules/bootstrap/scss/reboot";
 @import "../node_modules/bootstrap/scss/type";
 @import "../node_modules/bootstrap/scss/images";
 @import "../node_modules/bootstrap/scss/code";
 @import "../node_modules/bootstrap/scss/grid";
 
-.first-page-section {
-    min-height: 800px;
-    background-color: white;
-}
+.pt-11 {
+    padding-top: ($spacer * 11) !important;
+  }
 
-nav li a{
-    color: #1C1C1C;
-    font-weight: 500;
-    font-size: 15px;
-    font-family: 'Roboto', sans-serif;
-}
-
-nav li a:hover{
-    color: #1C1C1C;
-}
-
-.top-buffer-page1{
-    margin-top: 215px;
+h1,h2,h3{
+    font-family: 'Alegreya Sans';
+    color: black;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: black;    
-}
-
-h1{
-    font-family: 'Alegreya Sans';
-    font-weight: 900;
-    font-size: 64px;
     color: black;
 }
 
-h2{
-    font-family: 'Alegreya Sans', sans-serif;
+h1{    
+    font-weight: 900;
+    font-size: 64px;
+}
+
+h2{   
     font-weight: 900;
     font-size: 48px;
-    color: #1c1c1c;
+}
+
+h5{
+    font-weight: 800;
+    font-size: 24px;
 }
 
 h6{
     font-weight: 400;
 }
 
-.second-page-section {
-    min-height: 676px;
-    background-color: #146130;
-}
-
-.second-page-section p{
-    color: white;
-    font-weight: 400;
-}
-
-.second-page-section h1,.second-page-section h6,.second-page-section h2{
-    color: white;
-}
-
 .textbox{
-    margin-top: 220px;
-    
+    margin-top: 220px;   
 }
 
 .photobox{
     margin-top: 220px;
 }
 
-.third-page-section {
-    min-height: 676px;
-    background-color: white;
-}
-
-.fourth-page-section {
-    min-height: 676px;
-    background-color: #F2E9D8;
-}
-
-.fifth-page-section{
-    min-height: 800px;
-    background-color: white;
-}
-
-.top-buffer-page5{
-    padding-top: 300px;    
-}
-
-.fifth-page-section a{
-    border-radius: 16px;
-    background-color: #1c1c1c;
-    color: #ffffff;
-    padding: 15px 20px;
-}
-
-.footer-image-page-section{
-    background-image: url(/images/above-footer-background.png);
-    min-height: 900px;
-    background-size: cover;
-    margin-top: -100px;   
-}
-
-.footer-page-section{
-    background-color: #146130;
-    min-height: 500px;
-    
-}
-
-.footer-page-section a{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-}
-
-h5{
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 800;
-    font-size: 24px;
-}
-
-.footer-page-section a:hover{
-    color: white;
-}
-
-@media (min-width: 1200px) {
-    .container {
-      max-width: 1350px;
+// first page
+    .first-page-section {
+        min-height: 800px;
+        background-color: white;
     }
-  }
+
+    nav li a{
+        color: black;
+        font-weight: 500;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    nav li a:hover{
+        color: black;
+    }
+
+    .top-buffer-page1{
+        margin-top: 215px;
+    }
+
+
+// secong page
+    .second-page-section {
+        min-height: 676px;
+        background-color: #146130;
+    }
+
+    .second-page-section p{
+        color: white;
+        font-weight: 400;
+    }
+
+    .second-page-section h1,.second-page-section h6,.second-page-section h2{
+        color: white;
+    }
+
+// third page 
+    .third-page-section {
+        min-height: 676px;
+        background-color: white;
+    }
+
+// fourth page 
+    .fourth-page-section {
+        min-height: 676px;
+        background-color: #F2E9D8;
+    }
+
+// fifth page
+    .fifth-page-section{
+        min-height: 800px;
+        background-color: white;
+    }
+
+    .top-buffer-page5{
+        padding-top: 300px;    
+    }
+
+    .fifth-page-section a{
+        border-radius: 16px;
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+    }
+
+// footer page
+    .footer-page-section{
+        background-color: #146130;
+        min-height: 550px;    
+    }
+
+    .footer-page-section a{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .footer-page-section a:hover{
+        color: white;
+    }
+
