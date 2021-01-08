@@ -1073,18 +1073,23 @@ pre {
   .offset-xl-11 {
     margin-left: 91.66667%; } }
 
+body {
+  transition: background-color 0.5s ease;
+  background-color: transparent;
+  color: black; }
+
 .pt-11 {
   padding-top: 11rem !important; }
 
 h1, h2, h3 {
   font-family: 'Alegreya Sans';
-  color: black; }
+  color: inherit; }
 
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  color: black; }
+  color: inherit; }
 
 h1 {
   font-weight: 900;
@@ -1108,51 +1113,46 @@ h6 {
   margin-top: 220px; }
 
 .first-page-section {
-  min-height: 800px;
-  background-color: white; }
+  min-height: 800px; }
 
 nav li a {
-  color: black;
+  color: inherit;
   font-weight: 500;
   font-size: 15px;
   font-family: 'Roboto', sans-serif; }
 
 nav li a:hover {
-  color: black; }
+  color: inherit; }
 
 .top-buffer-page1 {
   margin-top: 215px; }
 
 .second-page-section {
-  min-height: 676px;
-  background-color: #146130; }
+  min-height: 676px; }
 
 .second-page-section p {
-  color: white;
+  color: inherit;
   font-weight: 400; }
 
 .second-page-section h1, .second-page-section h6, .second-page-section h2 {
-  color: white; }
+  color: inherit; }
 
 .third-page-section {
-  min-height: 676px;
-  background-color: white; }
+  min-height: 676px; }
 
 .fourth-page-section {
-  min-height: 676px;
-  background-color: #F2E9D8; }
+  min-height: 676px; }
 
 .fifth-page-section {
-  min-height: 800px;
-  background-color: white; }
+  min-height: 1000px; }
 
 .top-buffer-page5 {
   padding-top: 300px; }
 
 .fifth-page-section a {
   border-radius: 16px;
-  background-color: black;
-  color: white;
+  background-color: inherit;
+  color: inherit;
   padding: 15px 20px; }
 
 .footer-page-section {
@@ -1160,10 +1160,10 @@ nav li a:hover {
   min-height: 550px; }
 
 .footer-page-section a {
-  color: white;
+  color: inherit;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px; }
 
 .footer-page-section a:hover {
-  color: white; }
+  color: inherit; }

@@ -22,20 +22,26 @@ $container-max-widths: (
 @import "../node_modules/bootstrap/scss/code";
 @import "../node_modules/bootstrap/scss/grid";
 
+body{
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+    color: black;
+}
+
 .pt-11 {
     padding-top: ($spacer * 11) !important;
   }
 
 h1,h2,h3{
     font-family: 'Alegreya Sans';
-    color: black;
+    color: inherit;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: black;
+    color: inherit;
 }
 
 h1{    
@@ -68,18 +74,18 @@ h6{
 // first page
     .first-page-section {
         min-height: 800px;
-        background-color: white;
+        // background-color: inherit;
     }
 
     nav li a{
-        color: black;
+        color: inherit;
         font-weight: 500;
         font-size: 15px;
         font-family: 'Roboto', sans-serif;
     }
 
     nav li a:hover{
-        color: black;
+        color: inherit;
     }
 
     .top-buffer-page1{
@@ -90,34 +96,33 @@ h6{
 // secong page
     .second-page-section {
         min-height: 676px;
-        background-color: #146130;
+        // background-color: #146130;
     }
 
     .second-page-section p{
-        color: white;
+        color: inherit;
         font-weight: 400;
     }
 
     .second-page-section h1,.second-page-section h6,.second-page-section h2{
-        color: white;
+        color: inherit;
     }
 
 // third page 
     .third-page-section {
         min-height: 676px;
-        background-color: white;
+        // background-color: inherit;
     }
 
 // fourth page 
     .fourth-page-section {
         min-height: 676px;
-        background-color: #F2E9D8;
+        // background-color: #F2E9D8;
     }
 
 // fifth page
     .fifth-page-section{
-        min-height: 800px;
-        background-color: white;
+        min-height: 1000px;   
     }
 
     .top-buffer-page5{
@@ -126,8 +131,8 @@ h6{
 
     .fifth-page-section a{
         border-radius: 16px;
-        background-color: black;
-        color: white;
+        background-color: inherit;
+        color: inherit;
         padding: 15px 20px;
     }
 
@@ -138,13 +143,13 @@ h6{
     }
 
     .footer-page-section a{
-        color: white;
+        color: inherit;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 18px;
     }
 
     .footer-page-section a:hover{
-        color: white;
+        color: inherit;
     }
 
