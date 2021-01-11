@@ -1,7 +1,6 @@
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
 
 
 $grid-breakpoints: (
@@ -16,21 +15,33 @@ $container-max-widths: (
   xl: 1350px
 );
 
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/code";
-@import "../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/code";
+@import "../../node_modules/bootstrap/scss/grid";
+
+
 
 body{
-    transition: background-color 0.5s ease;
+    transition: background-color 1.0s ease;
     background-color: transparent;
-    color: black;
+    color: black;    
+}
+
+@media (min-width: 1000px){
+    .ml-8 {
+        margin-left: ($spacer * 8) !important;
+    }
+
+    .mr-8 {
+        margin-right: ($spacer * 8) !important;
+    }   
 }
 
 .pt-11 {
     padding-top: ($spacer * 11) !important;
-  }
+}
 
 h1,h2,h3{
     font-family: 'Alegreya Sans';
@@ -42,16 +53,18 @@ p{
     font-weight: 400;
     font-size: 18px;
     color: inherit;
+    max-width: 50rem;
 }
 
 h1{    
     font-weight: 900;
-    font-size: 64px;
+    font-size: 64px;  
 }
 
 h2{   
     font-weight: 900;
     font-size: 48px;
+    // max-width: 40rem;
 }
 
 h5{
@@ -131,9 +144,13 @@ h6{
 
     .fifth-page-section a{
         border-radius: 16px;
-        background-color: inherit;
-        color: inherit;
+        background-color: #1C1C1C;
+        color: white;
         padding: 15px 20px;
+    }
+
+    .fifth-page-section a:hover{
+        color: white;
     }
 
 // footer page
@@ -143,13 +160,13 @@ h6{
     }
 
     .footer-page-section a{
-        color: inherit;
+        color: white;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 18px;
     }
 
     .footer-page-section a:hover{
-        color: inherit;
+        color: white;
     }
 
