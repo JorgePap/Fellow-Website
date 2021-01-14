@@ -1793,6 +1793,9 @@ body {
   .mr-8 {
     margin-right: 8rem !important;
   }
+  .mt-8 {
+    margin-top: 8rem !important;
+  }
 }
 
 .pt-11 {
@@ -1867,58 +1870,10 @@ nav li a:hover {
 }
 
 .second-page-section {
-  min-height: 676px;
-}
-
-.second-page-section p {
-  color: inherit;
-  font-weight: 400;
-}
-
-.second-page-section h1, .second-page-section h6, .second-page-section h2 {
-  color: inherit;
+  min-height: 600px;
 }
 
 .third-page-section {
-  min-height: 676px;
+  min-height: 1300px;
 }
-
-.fourth-page-section {
-  min-height: 676px;
-}
-
-.fifth-page-section {
-  min-height: 1000px;
-}
-
-.top-buffer-page5 {
-  padding-top: 300px;
-}
-
-.fifth-page-section a {
-  border-radius: 16px;
-  background-color: #1C1C1C;
-  color: white;
-  padding: 15px 20px;
-}
-
-.fifth-page-section a:hover {
-  color: white;
-}
-
-.footer-page-section {
-  background-color: #146130;
-  min-height: 550px;
-}
-
-.footer-page-section a {
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-.footer-page-section a:hover {
-  color: white;
-}
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=whyFellowStyle.css.map */

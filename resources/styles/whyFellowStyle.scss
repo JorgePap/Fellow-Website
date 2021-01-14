@@ -21,8 +21,6 @@ $container-max-widths: (
 @import "../../node_modules/bootstrap/scss/code";
 @import "../../node_modules/bootstrap/scss/grid";
 
-
-
 body{
     transition: background-color 1.0s ease;
     background-color: transparent;
@@ -36,7 +34,11 @@ body{
 
     .mr-8 {
         margin-right: ($spacer * 8) !important;
-    }   
+    }
+    
+    .mt-8 {
+        margin-top: ($spacer * 8) !important;
+    }
 }
 
 .pt-11 {
@@ -121,66 +123,16 @@ h6{
     }
 
 // secong page
-    .second-page-section {
-        min-height: 676px;
-        // background-color: #146130;
+    .second-page-section{
+        min-height: 600px;
     }
 
-    .second-page-section p{
-        color: inherit;
-        font-weight: 400;
+// third page
+    .third-page-section{
+        min-height: 1300px;
     }
 
-    .second-page-section h1,.second-page-section h6,.second-page-section h2{
-        color: inherit;
+// fourth page
+    .fourth-page-section{
+        
     }
-
-// third page 
-    .third-page-section {
-        min-height: 676px;
-        // background-color: inherit;
-    }
-
-// fourth page 
-    .fourth-page-section {
-        min-height: 676px;
-        // background-color: #F2E9D8;
-    }
-
-// fifth page
-    .fifth-page-section{
-        min-height: 1000px;   
-    }
-
-    .top-buffer-page5{
-        padding-top: 300px;    
-    }
-
-    .fifth-page-section a{
-        border-radius: 16px;
-        background-color: #1C1C1C;
-        color: white;
-        padding: 15px 20px;
-    }
-
-    .fifth-page-section a:hover{
-        color: white;
-    }
-
-// footer page
-    .footer-page-section{
-        background-color: #146130;
-        min-height: 550px;    
-    }
-
-    .footer-page-section a{
-        color: white;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-    }
-
-    .footer-page-section a:hover{
-        color: white;
-    }
-
