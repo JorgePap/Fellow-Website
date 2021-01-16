@@ -1812,7 +1812,6 @@ p {
   font-weight: 400;
   font-size: 18px;
   color: inherit;
-  max-width: 50rem;
 }
 
 h1 {
@@ -1875,5 +1874,54 @@ nav li a:hover {
 
 .third-page-section {
   min-height: 1300px;
+}
+
+.fourth-page-section {
+  min-height: 1000px;
+}
+
+.carousel-item img {
+  margin: auto;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel-indicators {
+  bottom: -80px;
+}
+
+.fifth-page-section {
+  min-height: 700px;
+  background-color: #BAFFBD;
+}
+
+.top-buffer-page5 {
+  margin-top: 200px;
+}
+
+.fifth-page-section a {
+  display: block;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.footer-page-section {
+  background-color: white;
+  min-height: 680px;
+}
+
+.footer-page-section a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.footer-page-section a:hover {
+  color: white;
 }
 /*# sourceMappingURL=whyFellowStyle.css.map */

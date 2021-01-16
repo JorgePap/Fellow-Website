@@ -1,4 +1,4 @@
-var cssChangeTarget, cssChangeTextTarget,watchedElems;
+var cssChangeTarget, cssChangeTextTarget ,watchedElems ,watchedNav ,cssChangeNav;
 
 
 // Set things up.
@@ -6,11 +6,13 @@ window.addEventListener("load", function (event) {
 
   cssChangeTarget = document.querySelector('body');
   cssChangeTarget.style.willChange = 'background';
+  cssChangeNav = document.getElementById('nav');
 
   cssChangeTextTarget = document.querySelectorAll('.text-color-me');
   // cssChangeTextTarget.style.willChange = 'color';
 
   watchedElems = document.querySelectorAll('.color-me');
+  watchedNav = document.querySelector('#hiddenSection');
 
   createObserver();
 }, false);
@@ -24,12 +26,25 @@ function createObserver() {
     threshold: 1.0
   };
 
-  observer = new IntersectionObserver(handleIntersect, options);
+  var observerNav;
 
+  var optionsNav = {
+    root: null,
+    rootMargin: "0px",
+    threshold: 0.8
+  };
+
+  observer = new IntersectionObserver(handleIntersect, options);
+  observerNav = new IntersectionObserver(handleIntersectNav, optionsNav);
+  
   watchedElems.forEach(elem => {
     observer.observe(elem);
   });
+
+  observerNav.observe(watchedNav);
 }
+
+  
 
 function handleIntersect(entries, observer) {
   entries.forEach(function (entry) {
@@ -41,4 +56,14 @@ function handleIntersect(entries, observer) {
       el.style.color = newValue2;
     });
   });
+}
+
+
+function handleIntersectNav(entries, observerNav){
+  let observedNav = entries[0];
+  if( observedNav.isIntersecting ){ 
+  cssChangeNav.style.backgroundColor = 'transparent';
+  }else{
+  cssChangeNav.style.backgroundColor = 'white';
+  };
 }

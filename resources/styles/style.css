@@ -1839,6 +1839,14 @@ h6 {
   margin-top: 220px;
 }
 
+#hiddenSection {
+  background-color: transparent;
+}
+
+.header-page-section, #hiddenSection {
+  height: 96px;
+}
+
 nav li a {
   color: inherit;
   font-weight: 500;
@@ -1908,7 +1916,7 @@ nav li a:hover {
 
 .footer-page-section {
   background-color: #146130;
-  min-height: 550px;
+  min-height: 680px;
 }
 
 .footer-page-section a {
