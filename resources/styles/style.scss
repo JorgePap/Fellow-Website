@@ -5,8 +5,8 @@
 
 $grid-breakpoints: (
   xs: 0,
-  sm: 600px,
-  md: 800px,
+  sm: 550px,
+  md: 750px,
   lg: 1000px,
   xl: 1490px
 );
@@ -20,8 +20,6 @@ $container-max-widths: (
 @import "../../node_modules/bootstrap/scss/images";
 @import "../../node_modules/bootstrap/scss/code";
 @import "../../node_modules/bootstrap/scss/grid";
-
-
 
 body{
     transition: background-color 1.0s ease;
@@ -107,6 +105,10 @@ h6{
         color: inherit;
     }
 
+    .navbar-light .navbar-nav .nav-link {
+        color: #1C1C1C;
+    }
+
     // padding for navbar brand and button
     .pl-10 {
         padding-left: ($spacer * 10) !important;
@@ -118,17 +120,16 @@ h6{
 
 // first page
     .first-page-section {
-        min-height: 600px;
+        min-height: 550px;
     }
 
     .top-buffer-page1{
-        margin-top: 400px;
+        margin-top: 150px;
     }
 
 // secong page
     .second-page-section {
         min-height: 676px;
-        // background-color: #146130;
     }
 
     .second-page-section p{
@@ -154,38 +155,61 @@ h6{
 
 // fifth page
     .fifth-page-section{
-        min-height: 1000px;   
+        min-height: 650px;
+        margin-top: 200px;
     }
 
-    .top-buffer-page5{
+    #accordionExample .card{
+        border-radius: 28px;
+        
+    }
+
+    .card-header{
+        background-color: transparent;
+        border-bottom: none;
+        padding-left: 15px;   
+    }
+
+    .card-body{
+        padding-left: 30px;
+    }
+
+    
+
+// sixth page
+    .sixth-page-section{
+        min-height: 800px;   
+    }
+
+    .top-buffer-page6{
         padding-top: 300px;    
     }
 
-    .fifth-page-section a{
+    .sixth-page-section a{
         border-radius: 16px;
         background-color: #1C1C1C;
         color: white;
         padding: 15px 20px;
     }
 
-    .fifth-page-section a:hover{
+    .sixth-page-section a:hover{
         color: white;
     }
 
 // footer page
     .footer-page-section{
-        background-color: #146130;
-        min-height: 680px;    
+        background-color: #FFFFFF;
+        min-height: 680px; 
     }
 
     .footer-page-section a{
-        color: white;
+        color: #1C1C1C;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 18px;
     }
 
     .footer-page-section a:hover{
-        color: white;
+        color: #1C1C1C;
     }
 

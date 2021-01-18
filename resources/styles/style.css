@@ -831,7 +831,7 @@ pre code {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 550px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1068,7 +1068,7 @@ pre code {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .col-md {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1858,6 +1858,10 @@ nav li a:hover {
   color: inherit;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #1C1C1C;
+}
+
 .pl-10 {
   padding-left: 10rem !important;
 }
@@ -1867,11 +1871,11 @@ nav li a:hover {
 }
 
 .first-page-section {
-  min-height: 600px;
+  min-height: 550px;
 }
 
 .top-buffer-page1 {
-  margin-top: 400px;
+  margin-top: 150px;
 }
 
 .second-page-section {
@@ -1896,37 +1900,56 @@ nav li a:hover {
 }
 
 .fifth-page-section {
-  min-height: 1000px;
+  min-height: 650px;
+  margin-top: 200px;
 }
 
-.top-buffer-page5 {
+#accordionExample .card {
+  border-radius: 28px;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: none;
+  padding-left: 15px;
+}
+
+.card-body {
+  padding-left: 30px;
+}
+
+.sixth-page-section {
+  min-height: 800px;
+}
+
+.top-buffer-page6 {
   padding-top: 300px;
 }
 
-.fifth-page-section a {
+.sixth-page-section a {
   border-radius: 16px;
   background-color: #1C1C1C;
   color: white;
   padding: 15px 20px;
 }
 
-.fifth-page-section a:hover {
+.sixth-page-section a:hover {
   color: white;
 }
 
 .footer-page-section {
-  background-color: #146130;
+  background-color: #FFFFFF;
   min-height: 680px;
 }
 
 .footer-page-section a {
-  color: white;
+  color: #1C1C1C;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 
 .footer-page-section a:hover {
-  color: white;
+  color: #1C1C1C;
 }
 /*# sourceMappingURL=style.css.map */

@@ -67,3 +67,4 @@ function handleIntersectNav(entries, observerNav){
   cssChangeNav.style.backgroundColor = 'white';
   };
 }
+

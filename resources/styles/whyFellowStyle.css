@@ -831,7 +831,7 @@ pre code {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 550px) {
   .col-sm {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1068,7 +1068,7 @@ pre code {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 750px) {
   .col-md {
     -ms-flex-preferred-size: 0;
         flex-basis: 0;
@@ -1852,6 +1852,10 @@ nav li a:hover {
   color: inherit;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  color: #1C1C1C;
+}
+
 .pl-10 {
   padding-left: 10rem !important;
 }
@@ -1911,17 +1915,18 @@ nav li a:hover {
 }
 
 .footer-page-section {
-  background-color: white;
+  background-color: #FFFFFF;
   min-height: 680px;
 }
 
 .footer-page-section a {
+  color: #1C1C1C;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 18px;
 }
 
 .footer-page-section a:hover {
-  color: white;
+  color: #1C1C1C;
 }
 /*# sourceMappingURL=whyFellowStyle.css.map */

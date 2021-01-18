@@ -21,38 +21,43 @@
 
 <body>
 
-<!-- Navbar -->
-    <div class="container color-me" data-color="transparent" data-text-color="#1C1C1C">
+<!-- Header -->
+    <div class="container-fluid header-page-section">
+        <div id="hiddenSection"> </div>
+    
         <!-- Logo Start-->
-        <nav class="navbar fixed-top navbar-expand-lg">
-            <a class="navbar-brand ml-8" href="index.html">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="nav">
+            <a class="navbar-brand pl-5" href="index.html">
                 <img src="resources/images/Logo.png" height="65" alt="Fellow Traveller Logo">
             </a>
             <!-- Logo End-->
     
+            <button class="navbar-toggler order-first" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    
             <!-- Nav Buttons  Start-->
-            <div class="collapse navbar-collapse mr-8" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto">
+            <div class="collapse navbar-collapse pr-md-5" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-md-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-color-me" href="index.html">Αρχική</a>
+                        <a class="nav-link" href="index.html">Αρχική</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-color-me" href="#">Γιατί το Fellow;</a>
+                    <li class="nav-item pl-md-4">
+                        <a class="nav-link" href="why_fellow_page.html">Γιατί το Fellow;</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-color-me" href="#">Βοήθεια</a>
+                    <li class="nav-item pl-md-4 pr-md-5">
+                        <a class="nav-link" href="#">Βοήθεια</a>
                     </li>
                 </ul>
-                <!-- Nav Buttons End-->
-    
-                <!-- Pre-Alpha Buttons Start-->
-                <a class="btn text-color-me"
-                    style="border: 1px solid #E4E4E4; font-family: 'Alegreya Sans', sans-serif; font-weight: 800; padding: 12px 20px; border-radius: 16px;">Εγγραφή
-                    στο Pre-Alpha</a>
-                <!-- Pre-Alpha Buttons End-->
             </div>
+            <!-- Nav Buttons End-->
+    
+            <!-- Pre-Alpha Buttons Start-->
+            <a class="btn d-inline-block" style="border: 1px solid #E4E4E4; font-family: 'Alegreya Sans', sans-serif; font-weight: 800; padding: 14px 35px; border-radius: 16px; background-color: #0E5034; color: white;">Κατέβασε</a>
+            <!-- Pre-Alpha Buttons End-->
         </nav>
     </div>
+  
 
 <!-- First Page -->
     <div class="container-fluid first-page-section color-me" data-color="transparent" data-text-color="#1C1C1C">
@@ -284,62 +289,66 @@
 
 <!-- Footer Page -->
 
-<div class="container-fluid footer-page-section color-me"  data-color="transparent">   
-    
+<div class="container-fluid footer-page-section color-me" data-color="transparent">
 
-        <div class="row pt-11">
-          <div class="col-3 pl-5">
+    <div class="row pt-11">
+        <div class="col-3 pl-5">
             <img src="resources/images/logo-black.png" height="65" alt="Fellow Logo">
-            <p class="mt-4 mb-5 text-color-me">Ξεκίνα τώρα το συνταξιδιωτισμό,<br> κάνοντας εγγραφή στην Pre-Alpha<br> έκδοση του Fellow. </p>
-            <a class="btn text-color-me" style="border: 1px solid #E4E4E4; font-family: 'Alegreya Sans', sans-serif; font-weight: 800; padding: 12px 20px; border-radius: 16px;">Εγγραφή στο Pre-Alpha</a>
-          </div>
-          <div class="col-6 text-center">          
-              <div class="ul">                  
+            <p class="mt-4 mb-5 text-color-me">Ξεκίνα τώρα το συνταξιδιωτισμό,<br> κάνοντας εγγραφή στην Pre-Alpha<br>
+                έκδοση του Fellow. </p>
+            <a class="" href="#">
+                <img src="resources/images/google-play-badge.png" height="85" alt="">
+            </a>
+        </div>
+        <div class="col-6 text-center">
+            <div class="ul">
                 <div class="li">
-                  <a class="btn text-color-me" href="index.html">Αρχική</a>
+                    <a class="btn text-color-me" href="index.html">Αρχική</a>
                 </div>
                 <div class="li">
-                  <a class="btn text-color-me" href="#">Γιατί το Fellow;</a>
+                    <a class="btn text-color-me" href="why_fellow_page.html">Γιατί το Fellow;</a>
                 </div>
                 <div class="li">
-                  <a class="btn text-color-me" href="#">Εγγραφή Pre-Alpha</a>
+                    <a class="btn text-color-me" href="#">Εγγραφή Pre-Alpha</a>
                 </div>
                 <div class="li">
-                  <a class="btn text-color-me" href="#">Όροι Χρήσης</a>
+                    <a class="btn text-color-me" href="#">Όροι Χρήσης</a>
                 </div>
                 <div class="li">
-                  <a class="btn text-color-me" href="#">Πολιτική Απορρήτου</a>
+                    <a class="btn text-color-me" href="#">Πολιτική Απορρήτου</a>
                 </div>
-              </div>         
-          </div>
-          <div class="col-3 pl-10">
+            </div>
+        </div>
+        <div class="col-3 pl-10">
             <h5 class="mb-4 text-color-me">Contact Us</h5>
             <address>
-              <a class="text-color-me" href="mailto:fellowtraveller@gmail.com" style="text-decoration: underline;">fellowtraveller@gmail.com</a>
+                <a class="text-color-me" href="mailto:fellowtraveller@gmail.com"
+                    style="text-decoration: underline;">fellowtraveller@gmail.com</a>
             </address>
-          </div>
         </div>
-              
-        <div class="row mt-5 pt-5">
-          <div class="col-9">
-            <a class="btn text-color-me" style="font-size: 16px;" href="#">© 2020 Fellow. All rights reserved</a>
-          </div>
-          <div class="col-3">
-            <a href="#">
-              <img class="mr-2" src="resources/images/facebook-icon.png" width="20" height="18" alt="facebook logo">
-            </a>
-            <a href="#">
-              <img class="mr-2" src="resources/images/twitter-icon.png" width="20" height="18" alt="twitter logo">
-            </a>
-            <a href="#">
-              <img src="resources/images/instagram-icon.png" width="20" height="20" alt="instagram logo">
-            </a>
-          </div>
-  
+    </div>
+
+    <div class="row mt-5 pt-5">
+        <div class="col-3">
+            <a class="ml-4" style="font-size: 16px;" href="#">© 2020 Fellow. All rights reserved</a>
+            <p class="ml-4" style="font-weight: 300; font-size: 14px;">Η επωνυμία Google Play και το λογότυπο Google
+                <br> Play αποτελούν εμπορικά σήματα της Google LLC.</p>
         </div>
-     
-    
-  </div>
+        <div class="col-3 offset-6">
+            <a href="#">
+                <img class="mr-2" src="resources/images/facebook-icon.png" width="20" height="18" alt="facebook logo">
+            </a>
+            <a href="#">
+                <img class="mr-2" src="resources/images/twitter-icon.png" width="20" height="18" alt="twitter logo">
+            </a>
+            <a href="#">
+                <img src="resources/images/instagram-icon.png" width="20" height="20" alt="instagram logo">
+            </a>
+        </div>
+
+    </div>
+
+</div>
 
 
 
