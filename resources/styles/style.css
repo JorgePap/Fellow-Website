@@ -1809,7 +1809,6 @@ p {
   font-weight: 400;
   font-size: 18px;
   color: inherit;
-  max-width: 50rem;
 }
 
 h1 {
@@ -1835,8 +1834,10 @@ h6 {
   margin-top: 220px;
 }
 
-.photobox {
-  margin-top: 220px;
+@media (min-width: 1000px) {
+  .photobox {
+    margin-top: 220px;
+  }
 }
 
 #hiddenSection {
@@ -1860,6 +1861,15 @@ nav li a:hover {
 
 .navbar-light .navbar-nav .nav-link {
   color: #1C1C1C;
+}
+
+nav a h5 {
+  color: #1C1C1C;
+  font-size: 16px;
+}
+
+.no-underline {
+  text-decoration: none !important;
 }
 
 .pl-10 {
@@ -1919,11 +1929,13 @@ nav li a:hover {
 }
 
 .sixth-page-section {
-  min-height: 800px;
+  min-height: 600px;
+  background-color: #D0ECDF;
 }
 
 .top-buffer-page6 {
-  padding-top: 300px;
+  padding-top: 200px;
+  margin-top: 100px;
 }
 
 .sixth-page-section a {
@@ -1939,7 +1951,11 @@ nav li a:hover {
 
 .footer-page-section {
   background-color: #FFFFFF;
-  min-height: 680px;
+  min-height: 1250px;
+}
+
+.top-buffer-footer {
+  margin-top: 100px;
 }
 
 .footer-page-section a {
@@ -1951,5 +1967,13 @@ nav li a:hover {
 
 .footer-page-section a:hover {
   color: #1C1C1C;
+}
+
+.my-select {
+  background-color: white;
+  color: #1C1C1C;
+  border: 1px solid #E4E4E4;
+  border-radius: 12px;
+  padding: 6px 20px;
 }
 /*# sourceMappingURL=style.css.map */

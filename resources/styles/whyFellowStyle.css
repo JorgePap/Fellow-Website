@@ -1841,6 +1841,10 @@ h6 {
   margin-top: 220px;
 }
 
+.header-page-section, #hiddenSection {
+  height: 96px;
+}
+
 nav li a {
   color: inherit;
   font-weight: 500;

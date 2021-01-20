@@ -86,6 +86,10 @@ h6{
 }
 
 // header page
+    .header-page-section,#hiddenSection{
+        height: 96px;   
+    }
+
     nav li a{
         color: inherit;
         font-weight: 500;
