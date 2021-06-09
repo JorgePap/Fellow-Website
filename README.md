@@ -1,2 +1,2 @@
 # Fellow-Website
-https://jorge-pap.github.io/Fellow-Website/
+https://jorgePap.github.io/Fellow-Website/
